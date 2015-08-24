@@ -67,7 +67,8 @@
   },
   "optionalDependencies": {
     "mysql": "2.1.1",
-    "pg": "4.1.1"
+    "pg": "4.1.1",
+    "cfenv": "1.0.0"
   },
   "devDependencies": {
     "bower": "1.4.1",
