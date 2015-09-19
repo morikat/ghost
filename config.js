@@ -18,7 +18,7 @@ config = {
         mail: {},
         database: {
             client: 'mysql',
-            connection: appEnv.getServiceCreds(/^mysql.*/).uri,
+            connection: appEnv.getServiceCreds(/mysql.*/).uri,
             pool: {
                 min: 2,
                 max: 4
